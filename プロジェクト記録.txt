@@ -1,0 +1,49 @@
+こんにちは。これから新しいプロジェクトを始めます。
+
+以下の内容が、私たちが以前完成させたアプリケーションの最終的な全情報です。
+この内容を記憶して、今後の会話の前提としてください。
+
+1.フォルダ構成
+プロジェクトフォルダ/
+│
+├── 🏠_Home.py
+│
+├── pages/
+│   ├── 1_🚀_LightGBM_Playground.py
+│   └── 2_📚_Sample_Datasets.py
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── california_housing.csv
+│
+├── titanic_cleaned.csv
+│
+├── create_california_data.py
+│
+└── create_titanic_data.py
+
+2.主要ライブラリ一覧
+streamlit
+pandas
+lightgbm
+scikit-learn
+ydata-profiling
+streamlit-pandas-profiling
+optuna
+shap
+matplotlib
+japanize-matplotlib
+seaborn(データ作成用)
+
+3. config.toml
+ファイル添付してます
+
+4. 🏠_Home.py
+ファイル添付してます
+
+5. pages/1_🚀_LightGBM_Playground.py
+ファイル添付してます
+
+6. pages/2_📚_Sample_Datasets.py
+ファイル添付してます
