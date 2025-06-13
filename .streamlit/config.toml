@@ -1,3 +1,7 @@
 [theme]
 base="dark"
 primaryColor="#a8eb12" # グラデーションに合わせたアクセントカラー
+[tool.streamlit]
+# Python 3.13ではdistutilsが削除されたため、以前のバージョンを指定
+# japanize-matplotlibが動作するPython 3.12 を指定します。
+pythonVersion = "3.12"
