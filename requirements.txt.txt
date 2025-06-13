@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 pandas
 lightgbm
@@ -8,4 +9,16 @@ optuna
 shap
 matplotlib
 japanize-matplotlib
+=======
+streamlit
+pandas
+lightgbm
+scikit-learn
+ydata-profiling
+streamlit-pandas-profiling
+optuna
+shap
+matplotlib
+japanize-matplotlib
+>>>>>>> eb5698fd6924d13acbfd2f6fdb0775178698c410
 seaborn
