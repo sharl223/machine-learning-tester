@@ -1,6 +1,13 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+# ページ設定
+st.set_page_config(
+    page_title="ようこそ！未来予測アプリへ",
+    page_icon="✨",
+    layout="wide"
+)
+
 # --------------------------------------------------------------------------------
 # Google Analyticsトラッキングコード
 # --------------------------------------------------------------------------------
@@ -23,12 +30,7 @@ tracking_script = f"""
 components.html(tracking_script, height=0)
 # --------------------------------------------------------------------------------
 
-# ページ設定
-st.set_page_config(
-    page_title="ようこそ！未来予測アプリへ",
-    page_icon="✨",
-    layout="wide"
-)
+
 
 # --- デザインカスタマイズ (改行修正版) ---
 st.markdown("""
