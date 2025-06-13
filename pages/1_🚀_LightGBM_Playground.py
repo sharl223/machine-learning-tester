@@ -8,7 +8,7 @@ from sklearn.metrics import r2_score, accuracy_score
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import matplotlib.pyplot as plt
-import japanize_matplotlib
+#import japanize_matplotlib
 from io import BytesIO
 from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
