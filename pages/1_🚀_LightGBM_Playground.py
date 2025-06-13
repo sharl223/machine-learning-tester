@@ -10,8 +10,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 #import japanize_matplotlib
 from io import BytesIO
-from ydata_profiling import ProfileReport
-from streamlit_pandas_profiling import st_profile_report
+#from ydata_profiling import ProfileReport
+#from streamlit_pandas_profiling import st_profile_report
 
 # --- ページの基本設定 ---
 st.set_page_config(page_title="LightGBM Playground", page_icon="🚀", layout="wide")
@@ -97,6 +97,7 @@ if uploaded_file is not None:
     with st.container(border=True):
         st.header("1. アップロードされたデータのプレビュー")
         st.dataframe(df.head())
+        '''
         st.header("2. データ全体の自動分析")
         col1, col2 = st.columns(2)
         with col1:
@@ -151,6 +152,7 @@ if uploaded_file is not None:
             """)
             st.write("---")
             st_profile_report(st.session_state.profile_report)
+            '''
             
     st.write("---")
     st.info("データを確認したら、サイドバーで学習の設定を行なってください。", icon="👇")
