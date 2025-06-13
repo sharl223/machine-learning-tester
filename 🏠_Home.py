@@ -7,6 +7,11 @@ st.set_page_config(
     layout="wide"
 )
 
+# Google Search Consoleのメタタグをここに貼り付ける
+st.markdown(f"""
+<meta name="google-site-verification" content="google836db033ae7939e0" />
+""", unsafe_allow_html=True)
+
 # --- デザインカスタマイズ (改行修正版) ---
 st.markdown("""
 <style>
