@@ -1,4 +1,27 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+# --------------------------------------------------------------------------------
+# Google Analyticsトラッキングコード
+# --------------------------------------------------------------------------------
+# あなたの測定ID: G-FCTKX7G62M
+GA_MEASUREMENT_ID = "G-FCTKX7G62M" 
+
+# Google Analyticsのトラッキングコード（gtag.js）
+tracking_script = f"""
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', '{GA_MEASUREMENT_ID}');
+</script>
+"""
+# HTMLとしてスクリプトを埋め込む
+# height=0にすることで、コンポーネントの表示領域をなくす
+components.html(tracking_script, height=0)
+# --------------------------------------------------------------------------------
 
 # ページ設定
 st.set_page_config(
@@ -6,11 +29,6 @@ st.set_page_config(
     page_icon="✨",
     layout="wide"
 )
-
-# Google Search Consoleのメタタグをここに貼り付ける
-st.markdown(f"""
-<meta name="google-site-verification" content="oLINohQe1xf5erPfCnxEFRx2LD5DWPDa4LbO0vtOZe4" />
-""", unsafe_allow_html=True)
 
 # --- デザインカスタマイズ (改行修正版) ---
 st.markdown("""
