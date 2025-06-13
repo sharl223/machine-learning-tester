@@ -9,7 +9,7 @@ st.set_page_config(
 
 # Google Search Consoleのメタタグをここに貼り付ける
 st.markdown(f"""
-<meta name="google-site-verification" content="google836db033ae7939e0" />
+<meta name="google-site-verification" content="oLINohQe1xf5erPfCnxEFRx2LD5DWPDa4LbO0vtOZe4" />
 """, unsafe_allow_html=True)
 
 # --- デザインカスタマイズ (改行修正版) ---
