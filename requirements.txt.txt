@@ -1,0 +1,11 @@
+streamlit
+pandas
+lightgbm
+scikit-learn
+ydata-profiling
+streamlit-pandas-profiling
+optuna
+shap
+matplotlib
+japanize-matplotlib
+seaborn
